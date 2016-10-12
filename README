@@ -1,0 +1,50 @@
+//PAPER SISSORS ROCK!!!
+//Version 1.0
+
+//Dependencies?
+system.h
+
+drivers/navswitch.h
+drivers/button.h
+drivers/display.h
+
+utils/tiny_gl.h
+utils/pacer.h
+
+fonts/font.h
+
+drivers/avr/ir_uart.h
+drivers/avr/timer.h
+drivers/avr/prescale.h
+
+//Installation
+Connect USB-Mini to computer and UCFK4
+Run build commands Make Program in Geany
+If on Terminal type "make program" in the game file directory
+
+//Game Files
+assignment/final/game.c
+assignment/final/menu.h
+assignment/final/menu.c
+assignment/final/Makefile
+
+
+//Git Instuctions
+Ensure you use the git add command to add your files to the git
+repository.  For example,
+
+git add module.c
+
+Then use the git commit command to add the file contents
+
+git commit -m "Added file" module.c
+
+The use the git push command to copy the changes to the remote git server
+
+git push
+
+
+
+//Known Bugs?
+
+
